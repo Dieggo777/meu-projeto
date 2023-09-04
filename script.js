@@ -3,12 +3,9 @@ function toggleMode() {
   html.classList.toggle("light")
   const img = document.querySelector("#profile img")
   if(html.classList.contains('light')) {
-    img.setAttribute(
-      "src",
-      "https://yt3.ggpht.com/yti/AHXOFjWiknCA_WIeQ8mpHsQ0_nvcS1saljAUYu4qwBodMQ=s108-c-k-c0x00ffffff-no-rj"
-    )
+    img.setAttribute("src", "assets/dieggo-perfil.jpg")
   } else {
-    img.setAttribute("src", "https://github.com/Dieggo777.png")
+    img.setAttribute("src", "assets/dieggo-perfil.jpg")
   }
 /*if(html.classList.contains('light')) {
   html.classList.remove('light')
